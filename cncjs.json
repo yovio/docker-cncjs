@@ -1,0 +1,14 @@
+{
+    "ports": [
+        {
+            "comName": "/dev/ttyACM0",
+            "manufacturer": "Arduino UNO (grbl)"
+        }
+    ],
+    "commands": [        
+        {
+            "title": "Restart CNCjs",
+            "commands": "pkill -f cncjs"
+        }
+    ]
+}
